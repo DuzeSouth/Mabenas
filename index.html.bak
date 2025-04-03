@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name"viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Home</title>
+<link rel="stylesheet" href="css/main.css"/>
+</head>
+<body>
+<header>
+<nav class="nav-menu">
+<h2 class=logo>Mabena's</h2>
+<ul>
+
+<li><a href='ct_Houses.html'>House Plans</a></li>
+<li><a href='#'>Track my Architect</a></li>
+<li><a href='#'>About us</a></li>
+<li class="Aearch"><a href='#'></a></li>
+<li class="Basket"><a href='#'></a></li>
+</ul>
+</nav>
+<h2 class="header-title-2"><a href="ct_buildingConstruction.html">Building Construction</a></h2>
+<h2 class="header-title-2"><a href="#">Quantity Survaying</a></h2>
+<h2 class="header-title-2"><a href="#">Land survaying</a></h2>
+<h2 class="header-title-2"><a href="ct_Houses.html">House Plans</a></h2>
+<h2 class="header-title-2"><a href="#">Engineering Drawing</a></h2>
+<h2 class="header-title-2"><a href="#">Office Management</a></h2>
+<h2 class="header-title-2"><a href="#">Paving and Roofing</a></h2>
+<h2 class="header-title-2"><a href="#">Architecture for Drafring</a></h2>
+<div id="buttons">
+<button class="header-cta-button" ><a href = "#"><strong>Book an Appointment</a></strong></button>
+</div>
+</header>
+<div class="discover-section">
+<div class="Food-item Food-1">
+
+</div>
+<div class="Food-item Food-2"> 
+
+</div>
+<div class="Food-item3 Food-3">
+
+</div>
+<footer>
+Website is subject to student research for more information contact us at the Department Of Computer Science.<br>
+<strong>TUT Soshanguve Building 10-110 Aubrey Matlala street 0152</strong>
+</footer>
+</body>
+</html>

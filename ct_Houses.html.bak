@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name"viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>House Plans</title>
+<link rel="stylesheet" href="css/main3.css"/>
+</head>
+<body>
+<header>
+<nav class="nav-menu">
+<h2 class=logo ><a href='index.html'>Mabena's</a></h2>
+<ul>
+
+<li><a href='#'>House Plans</a></li>
+<li><a href='#'>Track my Architect</a></li>
+<li><a href='#'>About us</a></li>
+<li class="Aearch"><a href='#'></a></li>
+<li class="Basket"><a href='#'></a></li>
+</ul>
+</nav>
+<h1>House Plans</h1>
+<div id="buttons">
+<button class="header-cta-button" ><a href = "#"><strong>Book a Virtual Session</a></strong></button>
+<button class="header-cta-button" ><a href = "#"><strong>SOS Urgent Application</a></strong></button>
+<button class="header-cta-button" ><a href = "#"><strong>Take Survey</a></strong></button>
+</div>
+</header>
+
+<footer>
+Website is subject to student research for more information contact us at the Department Of Computer Science.<br>
+<strong>TUT Soshanguve Building 10-110 Aubrey Matlala street 0152</strong>
+</footer>
+</body>
+</html>

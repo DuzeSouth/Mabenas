@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name"viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="css/main42s-surveyform2.css"/>
+<script src="script.js" defer></script>
+<title>Survey Form2</title>
+</head>
+<body>
+<header>
+<nav class="nav-menu">
+<h2 class=logo ><a href='index.html'>Mabena's</a></h2>
+<ul>
+<li><a href='#'>House Plans</a></li>
+<li><a href='#'>Track my Architect</a></li>
+<li><a href='#'>About us</a></li>
+<li class="Aearch"><a href='#'></a></li>
+<li class="Basket"><a href='#'></a></li>
+</ul>
+</nav>
+<h1>Survey Form</h1>
+<form action="#" class='form'>
+<!-- Progress bar -->
+<div class="progressbar">
+  <div class="progress" id="progress"></div>
+  <div
+    class="progress-step progress-step-active"
+    data-title="Site"
+  ></div>
+  <div class="progress-step" data-title="Family"></div>
+  <div class="progress-step" data-title="Guests"></div>
+  <div class="progress-step" data-title="Scope"></div>
+  <div class="progress-step" data-title="Plan"></div>
+  <div class="progress-step" data-title="Interior"></div>
+  <div class="progress-step" data-title="Furniture"></div>
+  <div class="progress-step" data-title="Structure"></div>
+  <div class="progress-step" data-title="Plumbing"></div>
+  <div class="progress-step" data-title="Exterior"></div>
+  <div class="progress-step" data-title="Landscape"></div>
+  <div class="progress-step" data-title="House Plan"></div>
+
+</div>
+
+<!---- steps ------>
+<br>
+<br>
+
+<div class="form-step form-step-active">
+    <c><h3>Project site:</h3> Please complete the following survey as accurate as possible. All information including perosnal information collected on this site is protected by the <strong>Student Research Regulation of South Africa SR0114RSA law</strong> as implemented from march 3 2022. Uploading <strong>Material sketch or picture</strong> is optional.</c>
+    <br>
+    <div class="input-group">
+        <br>
+        <lable for="StreetAddress" name="streetAddress">Street Address:</lable>
+        <input type="text" name="streetAddress" id="streetAddress/">
+        <lable for="City/Township">City/Township:</lable>
+        <input type="text" name="locationName" id="username" />
+        <lable for="State/Province" name="streetAddress">State/Province:</lable>
+        <input type="text" name="streetAddress" id="streetAddress/">
+        <lable for="post Code" name="streetAddress">Post Code:</lable>
+        <input class="postcode" type="number" name="postcode" id="postcode/" style="width=50px">
+        <lable for="other">Comments or discription</lable>
+        <textarea form="other" name="other" id="other" style="width:952px"placeholder="Please, explain here..."></textarea>
+    </div>
+    <br>
+    <div class="">
+        <c href="#" class="btn btn-next width-50 ml-auto">Next</c>
+    </div>
+</div>
+
+<div class="form-step">
+    <h3>Project site: Family</h3>
+    <br>
+    <div class="input-group">
+        <lable for="familymembers" name="familymembers">Number of<strong> family members:</strong></lable>
+        <input class="familymembers" type="number" name="familymembers" id="familymembers">
+        <lable for="numberOfAdults">Number of <strong>adults:</strong></lable>
+        <input class="familymembers" type="number" name="NumberOfAdults" id="numberOfAdults" />
+        <lable for="State/Province" name="streetAddress">Number of <strong>teenagers:</strong></lable>
+        <input class="familymembers" type="number" name="numberOfTeenagers" id="numberOfTeenagers">
+        <lable for="numberofChildren" name="numberOfChildren">Number of<strong> children:</strong></lable>
+        <input class="familymembers" type="number" name="discription" id="discription" style="width=50px">
+        <lable for="other">Optional - <c>  Feel free to decribe a typical story of a day inside the house or wanted  building. A clear discription of the family, names,gender and age. Please include needs wants, dreams and aspirations.</c></lable>
+        <textarea form="other" name="other" id="other" style="width:952px"placeholder="Please, explain here..."></textarea>
+    </div>
+    <br>
+    <div class="btns-group">
+        <c href="#" class="btn btn-prev">Previous</c>
+        <c href="#" class="btn btn-next">Next</c>
+    </div>
+</div>
+<div class="form-step">
+    <h3>Project site: External Family and guests</h3>
+    <br>
+    <div class="input-group">
+        <lable for="State/Province" name="streetAddress">Number of <strong>guests:</strong></lable>
+        <input class="familymembers" type="Guests" name="numberOfGuests" id="numberOfGuests/">
+        <lable for="workers" name="numberOfWorkers">Number of<strong> workers:</strong></lable>
+        <input class="familymembers" type="number" name="discription" id="discription" style="width=50px">
+        <lable for="workers" name="numberOfWorkers">Number of<strong> security guards:</strong></lable>
+        <input class="familymembers" type="number" name="discription" id="discription" style="width=50px">
+        <lable for="other">Optional - <c>  Feel free to decribe a typical story of a day outside the house or wanted  building. A clear discription of the guests, security guards and pets. Please include needs and other facilities that might be needed.</c></lable>
+        <textarea form="other" name="other" id="other" style="width:952px"placeholder="Please, explain here..."></textarea>
+    </div>
+    <br>
+    <div class="btns-group">
+        <c href="#" class="btn btn-prev">Previous</c>
+        <c href="#" class="btn btn-next">Next</c>
+    </div>
+</div>
+<div class="form-step">
+<h3>Project scope:</h3> 
+<br>
+    <div class="input-group">
+        <lable for="StandNumber" name="StandNumber">Stand Number:</lable>
+        <input class="familymembers" type="StandNumber" name="StandNumber" id="StandNumber">
+
+        <lable for="StandSize">Stand Size:</lable>
+        <input class="familymembers" type="text" name="StandSize" id="username" />
+
+        <lable for="StandType" name="StandType">Stand Type:</lable>
+        <input class="familymembers" type="text" name="StandType" id="StandType">
+
+        <lable for="ProodofId" name="ProodofIde">Upload Valid Prood of Id:</lable>
+        <input class="btn" type="file" name="ValidProodofAddressdid">
+
+        <lable for="BuildingSize" name="ValidProodofAddress">Upload Valid Prood of Address:</lable>
+        <input class="btn" type="file" name="UploadValidProodofAddressd" id="UploadValidProodofAddressd" style="width=50px">
+        
+        <lable for="other">Optional - <c>  Please share any public or legal information regarding the site or property. Our design services could expose you to free legal aid or financial advise if you meet our <strong>special task assesment criteria.</strong> </c></lable>
+        <textarea form="other" name="other" id="other" style="width:952px"placeholder="Please, explain here..."></textarea>
+    </div>
+    <br>
+    <div class="btns-group">
+        <c href="#" class="btn btn-prev">Previous</c>
+        <c href="#" class="btn btn-next">Next</c>
+    </div>
+</div>
+<div class="form-step">
+    <h3>Project scope: Planning and layout</h3> 
+    <br>
+    <div class="input-group">
+
+        <lable for="BuildingLayout" name="BuildingLayout">Building Layout:</lable>
+        <input class="familymembers" type="text" name="BuildingLayout" id="BuildingLayout">
+
+        <lable for="BuildingType">Structure Type:</lable>
+        <input class="familymembers" type="text" name="StructureType" id="StructureType" />
+
+        <lable for="KitchenDesign" name="KitchenDesign">Kitchen design:</lable>
+        <input class="familymembers" type="text" name="KitchenDesign" id="KitchenDesign">
+
+        <lable for="Dining" name="KitchenDesign">Dining:</lable>
+        <input class="familymembers" type="text" name="Dining" id="Dining">
+
+
+        <lable for="NumberOfBedrooms" name="NumberOfBedrooms">Number of bedrooms:</lable>
+        <input class="familymembers" type="number" name="NumberOfBedrooms" id="NumberOfBedrooms">
+
+
+        <lable for="Lounge" name="Lounge">Lounge:</lable>
+        <input class="familymembers" type="text" name="Lounge" id="Lounge">
+
+        <lable for="Lounge" name="Office">Office:</lable>
+        <input class="familymembers" type="text" name="Office" id="Office">
+
+
+        <lable for="other">Comments or discription</lable>
+        <textarea form="other" name="other" id="other" style="width:952px" placeholder="Please, explain here..."></textarea>
+        </div>
+        <br>
+    <div class="btns-group">
+        <c href="#" class="btn btn-prev">Previous</c>
+        <c href="#" class="btn btn-next">Next</c>
+    </div>
+</div>
+<div class="form-step">
+    <h3>Interior:</h3>
+    <c>Please complete the following survey as accurate as possible. All information including perosnal information collected on this site is protected by the <strong>Student Research Regulation of South Africa SR0114RSA law</strong> as implemented from march 3 2022. Uploading <strong>Material sketch or picture</strong> is optional. Uploading <strong>Material sketch or picture</strong> is optional.</c>
+    <br>
+    <div class="input-group">
+        <br>
+        <lable for="Material" name="Material"><strong>Material:</strong></lable>
+        <c>Here as a client you have a choice, advise is to stick to one material in relation the fact that this material will be used in all rooms of the House Plan. Uploading <strong>Material sketch or picture</strong> is optional.</c>
+        <textarea form="other" name="other" id="other" style="width:952px"placeholder="Please, explain here..." ></textarea>
+        <lable for="Material" name="Material"><strong>Material sketch or picture</strong>(jpg,JPEG,png,pdf):</lable>
+        <input class="btn" type="file" name="Material" id="Material" style="width=50px">
+
+        <lable for="Material" name="Malls"><strong>Kitchen counter:</strong></lable>
+        <textarea form="other" name="other" id="other" style="width:952px" placeholder="Please, explain here..."></textarea>
+        <lable for="Material" name="Material"><strong>Material sketch or picture</strong>(jpg,JPEG,png,pdf):</lable>
+        <input class="btn" type="file" name="Material" id="Material" style="width=50px">
+
+        <lable for="Material" name="Malls"><strong>Shelf and cupboard:</strong></lable>
+        <textarea form="other" name="other" id="other" style="width:952px"placeholder="Please, explain here..." ></textarea>
+        <lable for="Material" name="Material"><strong>Material sketch or picture</strong>(jpg,JPEG,png,pdf):</lable>
+        <input class="btn" type="file" name="Material" id="Material" style="width=50px">
+
+        <lable for="Material" name="Malls"><strong>Walls:</strong></lable>
+        <textarea form="other" name="other" id="other" style="width:952px" placeholder="Please, explain here..."></textarea>
+        <lable for="Material" name="Material"><strong>Material sketch or picture</strong>(jpg,JPEG,png,pdf):</lable>
+        <input class="btn" type="file" name="Material" id="Material" style="width=50px">
+       
+        <lable for="Material" name="Malls"><strong>Floors:</strong></lable>
+        <textarea form="other" name="other" id="other" style="width:952px"placeholder="Please, explain here..." ></textarea>
+        <lable for="Material" name="Material"><strong>Material sketch or picture</strong>(jpg,JPEG,png,pdf):</lable>
+        <input class="btn" type="file" name="Material" id="Material" style="width=50px">
+        
+        
+        <lable for="other">Comments or discription</lable>
+        <textarea form="other" name="other" id="other" style="width:952px"placeholder="Please, explain here..." ></textarea>
+        <br>
+    </div>
+    <br>
+    <div class="btns-group">
+        <c href="#" class="btn btn-prev">Previous</c>
+        <c href="#" class="btn btn-next">Next</c>
+    </div>
+</div>
+<div class="form-step">
+    <c><h3>Project site: Interior Furniture</h3> Please complete the following survey as accurate as possible. All information including perosnal information collected on this site is protected by the <strong>Student Research Regulation of South Africa SR0114RSA law</strong> as implemented from march 3 2022. Uploading <strong>Material sketch or picture</strong> is optional.</c>
+<br>
+    <div class="input-group">
+        <br>
+        <h3> Shop address</h3>
+        <lable for="StreetAddress" name="streetAddress">Street Address:</lable>
+        <input type="text" name="streetAddress" id="streetAddress/">
+        <lable for="City/Township">City/Township:</lable>
+        <input type="text" name="locationName" id="username" />
+        <lable for="State/Province" name="streetAddress">Sate/Province:</lable>
+        <input type="text" name="streetAddress" id="streetAddress/">
+        <lable for="post Code" name="streetAddress">Post Code:</lable>
+        <input class="postcode" type="number" name="postcode" id="postcode/" style="width=50px">
+        <br>
+        <lable for="other"><strong>Names or codes of products</strong></lable>
+        <br>
+        <c>Please include product discription in order for our 3D team to help create accurate 3D images of your dream home.</c>
+        <textarea form="other" name="other" id="other" style="width:952px" placeholder="Please, explain here..."></textarea>
+        <lable for="Material" name="Material"><strong>Sketch or picture</strong>(jpg,JPEG,png,pdf):</lable>
+        <input class="btn" type="file" name="Material" id="Material" style="width=50px">
+        <br>
+    </div>
+    <br>
+    <div class="btns-group">
+        <c href="#" class="btn btn-prev">Previous</c>
+        <c href="#" class="btn btn-next">Next</c>
+    </div>
+</div>
+<div class="form-step">
+    <c><h3>Project scope: Structure</h3> Please complete the following survey as accurate as possible. All information including perosnal information collected on this site is protected by the <strong>Student Research Regulation of South Africa SR0114RSA law</strong> as implemented from march 3 2022. Uploading <strong>Material sketch or picture</strong> is optional.</c>
+
+    <div class="input-group">
+        <br>
+        <h3>Structure</h3>
+        <lable for="Material" name="Material">Do you want your internal structure exposed?</lable>
+        <label for="fYes">Yes</label> 
+        <input class ="sFriend" name="sFriend" id="fYes"value="yes" type="radio" /> 
+        <label for="fNo">No</label> 
+        <input class ="sFriend" name="sFriend" id="fNo" value="no" type="radio" /> 
+        <textarea form="other" name="other" id="other" style="width:952px"placeholder="Please,explain here..."></textarea>
+        <lable for="Material" name="Material"><strong>Material sketch or picture</strong>(jpg,JPEG,png,pdf):</lable>
+        <input class="btn" type="file" name="Material" id="Material" style="width=50px">
+<br>
+<lable for="Material" name="Material">Do you want your external structure exposed?</lable>
+        <label for="fYes">Yes</label> 
+        <input class ="sFriend" name="sFriend" id="fYes"value="yes" type="radio" /> 
+        <label for="fNo">No</label> 
+        <input class ="sFriend" name="sFriend" id="fNo" value="no" type="radio" /> 
+        <textarea form="other" name="other" id="other" style="width:952px"placeholder="Please, explain here..."></textarea>
+        <lable for="Material" name="Material"><strong>Material sketch or picture</strong>(jpg,JPEG,png,pdf):</lable>
+        <input class="btn" type="file" name="Material" id="Material" style="width=50px">
+        <lable for="other">Comments or discription</lable>
+        <textarea form="other" name="other" id="other" style="width:952px" placeholder="Please, explain here..."></textarea>
+<br>
+    </div>
+    <br>
+    <div class="btns-group">
+        <c href="#" class="btn btn-prev">Previous</c>
+        <c href="#" class="btn btn-next">Next</c>
+    </div>
+</div>
+<div class="form-step">
+    <c><h3>Project site: Plumbing</h3> Please complete the following survey as accurate as possible. All information including perosnal information collected on this site is protected by the <strong>Student Research Regulation of South Africa SR0114RSA law</strong> as implemented from march 3 2022. Uploading <strong>Sketch or picture</strong> is optional.</c>
+
+    <div class="input-group">
+        <br>
+        <h3> Store, manufacture or servicemen address</h3>
+        <lable for="StreetAddress" name="streetAddress">Street Address:</lable>
+        <input type="text" name="streetAddress" id="streetAddress/">
+        <lable for="City/Township">City/Township:</lable>
+        <input type="text" name="locationName" id="username" />
+        <lable for="State/Province" name="streetAddress">Sate/Province:</lable>
+        <input type="text" name="streetAddress" id="streetAddress/">
+        <lable for="post Code" name="streetAddress">Post Code:</lable>
+        <input class="postcode" type="number" name="postcode" id="postcode/" style="width=50px">
+        <br>
+        <lable for="other"><strong>Names or codes of products</strong></lable>
+        <br>
+        <c>Please include product discription in order for our 3D team to help create accurate 3D images of your dream home.</c>
+        <textarea form="other" name="other" id="other" style="width:952px" placeholder="Please, explain here..."></textarea>
+        <lable for="Material" name="Material"><strong>Sketch or picture</strong>(jpg,JPEG,png,pdf):</lable>
+        <input class="btn" type="file" name="Material" id="Material" style="width=50px">
+        <br>
+    </div>
+    <div class="btns-group">
+        <c href="#" class="btn btn-prev">Previous</c>
+        <c href="#" class="btn btn-next">Next</c>
+    </div>
+</div>
+<div class="form-step">
+    <div class="input-group">
+        <h3>Exterior:</h3>
+        <c>Please complete the following survey as accurate as possible. All information including perosnal information collected on this site is protected by the <strong>Student Research Regulation of South Africa SR0114RSA law</strong> as implemented from march 3 2022. Uploading <strong>Material sketch or picture</strong> is optional.</c>
+        <br>
+        <div class="input-group">
+            <br>
+            <lable for="Material" name="Material"><strong>Material:</strong></lable>
+            <c>Here as a client you have a choice, advise is to stick to one material in relation the fact that this material will be used in all rooms of the House Plan.</c>
+            <textarea form="other" name="other" id="other" style="width:952px"placeholder="Please, explain here..." ></textarea>
+            <lable for="Material" name="Material"><strong>Material sketch or picture</strong>(jpg,JPEG,png,pdf):</lable>
+            <input class="btn" type="file" name="Material" id="Material" style="width=50px">
+    
+            <lable for="Material" name="Malls"><strong>Window frame material:</strong></lable>
+            <textarea form="other" name="other" id="other" style="width:952px" placeholder="Please, explain here..."></textarea>
+            <lable for="Material" name="Material"><strong>Material sketch or picture</strong>(jpg,JPEG,png,pdf):</lable>
+            <input class="btn" type="file" name="Material" id="Material" style="width=50px">
+    
+            <lable for="Material" name="Malls"><strong>Doors and window-bars:</strong></lable>
+            <textarea form="other" name="other" id="other" style="width:952px"placeholder="Please, explain here..." ></textarea>
+            <lable for="Material" name="Material"><strong>Material sketch or picture</strong>(jpg,JPEG,png,pdf):</lable>
+            <input class="btn" type="file" name="Material" id="Material" style="width=50px">
+    
+            <lable for="Material" name="Malls"><strong>Walls main finish:</strong></lable>
+            <textarea form="other" name="other" id="other" style="width:952px" placeholder="Please, explain here..."></textarea>
+            <lable for="Material" name="Material"><strong>Material sketch or picture</strong>(jpg,JPEG,png,pdf):</lable>
+            <input class="btn" type="file" name="Material" id="Material" style="width=50px">
+           
+            <lable for="Material" name="Malls"><strong>Facade or front wall design:</strong></lable>
+            <textarea form="other" name="other" id="other" style="width:952px"placeholder="Please, explain here..." ></textarea>
+            <lable for="Material" name="Material"><strong>Material sketch or picture</strong>(jpg,JPEG,png,pdf):</lable>
+            <input class="btn" type="file" name="Material" id="Material" style="width=50px">
+
+            <lable for="Material" name="Malls"><strong>Garage doors and sliding doors:</strong></lable>
+            <textarea form="other" name="other" id="other" style="width:952px"placeholder="Please, explain here..." ></textarea>
+            <lable for="Material" name="Material"><strong>Material sketch or picture</strong>(jpg,JPEG,png,pdf):</lable>
+            <input class="btn" type="file" name="Material" id="Material" style="width=50px">
+            
+            
+            <lable for="other">Comments or discription</lable>
+            <textarea form="other" name="other" id="other" style="width:952px"placeholder="Please, explain here..." ></textarea>
+            <br>
+    </div>
+    <br>
+      <div class="btns-group">
+        <c href="#" class="btn btn-prev">Previous</c>
+        <c href="#" class="btn btn-next">Next</c>
+    </div>
+    </div>
+</div>
+<div class="form-step">
+    <c><h3>Project scope: Structure</h3> Please complete the following survey as accurate as possible. All information including perosnal information collected on this site is protected by the <strong>Student Research Regulation of South Africa SR0114RSA law</strong> as implemented from march 3 2022. Uploading <strong>Material sketch or picture</strong> is optional.</c>
+
+    <div class="input-group">
+        <br>
+        <h3>Landscape</h3>
+        <lable for="Material" name="Material">Do you want us to design your landscape?</lable>
+        <label for="fYes">Yes</label> 
+        <input class ="sFriend" name="sFriend" id="fYes"value="yes" type="radio" /> 
+        <label for="fNo">No</label> 
+        <input class ="sFriend" name="sFriend" id="fNo" value="no" type="radio" /> 
+        <textarea form="other" name="other" id="other" style="width:952px"placeholder="Please,explain here..."></textarea>
+        <lable for="Material" name="Material"><strong>Material sketch or picture</strong>(jpg,JPEG,png,pdf):</lable>
+        <input class="btn" type="file" name="Material" id="Material" style="width=50px">
+<br>
+<h3>External walls</h3>
+<lable for="Material" name="Material">Do you want you want us to design your external structure or walls?</lable>
+        <label for="fYes">Yes</label> 
+        <input class ="sFriend" name="sFriend" id="fYes"value="yes" type="radio" /> 
+        <label for="fNo">No</label> 
+        <input class ="sFriend" name="sFriend" id="fNo" value="no" type="radio" /> 
+        <textarea form="other" name="other" id="other" style="width:952px"placeholder="Please, explain here..."></textarea>
+        <lable for="Material" name="Material"><strong>Material sketch or picture</strong>(jpg,JPEG,png,pdf):</lable>
+        <input class="btn" type="file" name="Material" id="Material" style="width=50px">
+<br>
+<h3>Planting</h3>
+<lable for="Material" name="Material">Do you want you want us to add adaptable and decorative plants?</lable>
+        <label for="fYes">Yes</label> 
+        <input class ="sFriend" name="sFriend" id="fYes"value="yes" type="radio" /> 
+        <label for="fNo">No</label> 
+        <input class ="sFriend" name="sFriend" id="fNo" value="no" type="radio" /> 
+        <textarea form="other" name="other" id="other" style="width:952px"placeholder="Please, explain here..."></textarea>
+        <lable for="Material" name="Material"><strong>Material sketch or picture</strong>(jpg,JPEG,png,pdf):</lable>
+        <input class="btn" type="file" name="Material" id="Material" style="width=50px">
+        <br>
+        <lable for="other">Comments or discription</lable>
+        <textarea form="other" name="other" id="other" style="width:952px"placeholder="Please, explain here..."></textarea>
+    </div>
+    <br>
+    <div class="btns-group">
+        <c href="#" class="btn btn-prev">Previous</c>
+        <c href="#" class="btn btn-next">Next</c>
+    </div>
+    </div>
+</div>
+<div class="form-step">
+    <c><h3>Project site:</h3> Please complete the following survey as accurate as possible. All information including perosnal information collected on this site is protected by the <strong>Student Research Regulation of South Africa SR0114RSA law</strong> as implemented from march 3 2022.</c>
+<br>
+    <div class="input-group">
+        <br>
+       <img src="images/R.jpg" width="auto"> 
+       <br>
+       <c><strong>Great Job!!!</strong> Now comes the difficult part, payment. Relax! If you qualify for our special assesment task team, your plan will be completed free of charge. Payment details and bank account information will be included in E-mail. Keep checking basket for notifications regarding <strong>bank confirmation of payment and uploading proof of payment. </strong></c>
+       <h3>Final comments and discriptions</h3>
+        <textarea form="fother" name="fother" id="other" style="width:952px"></textarea>
+    </div>
+    <br>
+    <div class="btns-group">
+        <c href="#" class="btn btn-prev">Previous</c>
+        <input type="submit" value="Submit" class="btn"></c>
+    </div>
+</div>
+ </form>
+</header>
+<br>
+<br>
+<footer>
+Website is subject to student research for more information contact us at the Department Of Computer Science.<br>
+<strong>TUT Soshanguve Building 10-110 Aubrey Matlala street 0152</strong>
+</footer>
+<script src="script.js" defer></script>
+</body>
+</html>

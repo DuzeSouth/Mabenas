@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name"viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>photoshop to html</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<header>
+<nav>
+<h2>Foody</h2>
+<ul>
+<li>Welcome</li>
+<li>Menu</li>
+<li>Resturant</li>
+<li>Find Us</li>
+<li>Events</li>
+<li>Find us</li>
+<li>icon</li>
+<li>icon</li>
+</ul>
+</nav>
+<h2>Welcome</h2>
+<h1>5 STARS RESTURANT<h1>
+<a href = "#">BOOK AN ARCHITECT</a>
+</header>
+</body>
+</html>
